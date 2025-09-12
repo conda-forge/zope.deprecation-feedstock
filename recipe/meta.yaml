@@ -1,13 +1,13 @@
 {% set name = "zope.deprecation" %}
-{% set version = "4.4.0" %}
+{% set version = "6.0" %}
 
 package:
   name: "{{ name|lower }}"
   version: "{{ version }}"
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0d453338f04bacf91bbfba545d8bcdf529aa829e67b705eac8c1a7fdce66e2df
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/zope_deprecation-{{ version }}.tar.gz
+  sha256: 18727ebda8e63a6d4bd28a290e8b46852e9f14473debb5cc40a0a2dccfadf15f
 
 build:
   noarch: python
